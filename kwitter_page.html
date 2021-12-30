@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,14 +27,15 @@
 				<img src="m2.png">
 			</sup>
 		</h1>
-		<div style="text-align: left;margin-bottom: 70px;"> </div>
+		<div style="text-align: left;margin-bottom: 70px;" id="output"> </div> 
 	</center>
 </div>
 
 <center>
 	<div class="input_div_message_page">
 		<label>Send:</label>
-		<button class="btn btn-success">Send</button>
+        <input type="text" id="message" class="form-control" placeholder="message" >
+		<button class="btn btn-success" onclick="send()">Send</button>
 	</div>
 </center>
 
