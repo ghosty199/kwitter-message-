@@ -42,7 +42,7 @@ like_button ="<button class='btn btn-warning' id="+firebase_message_id+" value="
 //End code
  } });  }); }
 getData();
-function updatelike(message_id){
+function updateLike(message_id){
     button_id = message_id;
 	likes = document.getElementById(button_id).value;
 	updated_likes = Number(likes) + 1;
